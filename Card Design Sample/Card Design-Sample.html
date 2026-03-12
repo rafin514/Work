@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Card Design</title>
+
+    <style>
+        body {
+            background-color: #dbe3e8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .card {
+            width: 350px;
+            background-color: #ffffff;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .tags {
+            margin-bottom: 10px;
+        }
+
+        .tags span {
+            display: inline-block;
+            background-color: #eef2f5;
+            color: #6c757d;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            margin-right: 8px;
+            cursor: pointer;
+        }
+
+        h2 {
+            margin: 10px 0;
+            font-size: 22px;
+            color: #2c3e50;            
+        }
+
+        p {
+            font-size: 14px;
+            color: #7f8c8d;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 25px;
+            background-color: #cfe2ff;
+            color: #2b6cb0;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #b6d4fe;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Lake Image" class="card-img">
+
+        <div class="card-content">
+
+            <div class="tags">
+                <span>Nature</span>
+                <span>Lake</span>
+            </div>
+
+            <h2>Lago di Braies</h2>
+
+            <p>
+                Lago di Braies is one of the most beautiful lakes in the Dolomites, Italy. Surrounded by tall mountains
+                and clear turquoise water, it is a peaceful place where visitors can enjoy nature, take boat rides, and
+                capture stunning photographs. Many travelers visit this lake to relax and experience the breathtaking
+                scenery.
+
+            </p>
+
+            <button>Read More</button>
+
+
+</body>
+</html>
